@@ -6,7 +6,7 @@ protocols: [http]
 #baseUri: http://api.hmis.com/doc-upload/{version}
 mediaType: application/json
 
-/document:
+/documents:
   get:
     description: |
       list all documents matching provided query criteria or return all documents
@@ -144,7 +144,7 @@ mediaType: application/json
           body:
             application/json:
               type: Message
-/document_category:
+/document_categories:
   get:
     description: list all document category matching provided query criteria or return all document categories
     queryParameters:

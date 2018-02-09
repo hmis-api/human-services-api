@@ -203,7 +203,7 @@
           
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h3 id="document" class="panel-title">/document</h3>
+                <h3 id="documents" class="panel-title">/documents</h3>
               </div>
 
               <div class="panel-body">
@@ -214,17 +214,17 @@
   <div class="panel panel-white resource-modal">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a class="collapsed" data-toggle="collapse" href="#panel_document">
-          <span class="parent"></span>/document
+        <a class="collapsed" data-toggle="collapse" href="#panel_documents">
+          <span class="parent"></span>/documents
         </a>
 
         <span class="methods">
           
-            <a href="#document_get"><!-- modal shown by hashchange event -->
+            <a href="#documents_get"><!-- modal shown by hashchange event -->
               <span class="badge badge_get">get</span>
             </a>
           
-            <a href="#document_post"><!-- modal shown by hashchange event -->
+            <a href="#documents_post"><!-- modal shown by hashchange event -->
               <span class="badge badge_post">post</span>
             </a>
           
@@ -232,13 +232,13 @@
       </h4>
     </div>
 
-    <div id="panel_document" class="panel-collapse collapse">
+    <div id="panel_documents" class="panel-collapse collapse">
       <div class="panel-body">
         
 
         <div class="list-group">
           
-            <div onclick="window.location.href = '#document_get'" class="list-group-item">
+            <div onclick="window.location.href = '#documents_get'" class="list-group-item">
               <span class="badge badge_get">get</span>
               <div class="method_description">
 <p>list all documents matching provided query criteria or return all documents</p>
@@ -247,7 +247,7 @@
               <div class="clearfix"></div>
             </div>
           
-            <div onclick="window.location.href = '#document_post'" class="list-group-item">
+            <div onclick="window.location.href = '#documents_post'" class="list-group-item">
               <span class="badge badge_post">post</span>
               <div class="method_description">
 <p>create a new document using the multipart/mixed containg a Document json and file content data</p>
@@ -261,14 +261,14 @@
     </div>
 
     
-      <div class="modal fade" tabindex="0" id="document_get">
+      <div class="modal fade" tabindex="0" id="documents_get">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
               <h4 class="modal-title" id="myModalLabel">
                 <span class="badge badge_get">get</span>
-                <span class="parent"></span>/document
+                <span class="parent"></span>/documents
               </h4>
             </div>
 
@@ -286,13 +286,13 @@
               <ul class="nav nav-tabs">
                 
                   <li class="active">
-                    <a href="#document_get_request" data-toggle="tab">Request</a>
+                    <a href="#documents_get_request" data-toggle="tab">Request</a>
                   </li>
                 
 
                 
                   <li>
-                    <a href="#document_get_response" data-toggle="tab">Response</a>
+                    <a href="#documents_get_response" data-toggle="tab">Response</a>
                   </li>
                 
 
@@ -302,7 +302,7 @@
               <!-- Tab panes -->
               <div class="tab-content">
                 
-                  <div class="tab-pane active" id="document_get_request">
+                  <div class="tab-pane active" id="documents_get_request">
                     
 
                     
@@ -355,7 +355,7 @@
                 
 
                 
-                  <div class="tab-pane" id="document_get_response">
+                  <div class="tab-pane" id="documents_get_response">
                     
                       <h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2>
 
@@ -483,14 +483,14 @@
         </div>
       </div>
     
-      <div class="modal fade" tabindex="0" id="document_post">
+      <div class="modal fade" tabindex="0" id="documents_post">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
               <h4 class="modal-title" id="myModalLabel">
                 <span class="badge badge_post">post</span>
-                <span class="parent"></span>/document
+                <span class="parent"></span>/documents
               </h4>
             </div>
 
@@ -508,13 +508,13 @@
               <ul class="nav nav-tabs">
                 
                   <li class="active">
-                    <a href="#document_post_request" data-toggle="tab">Request</a>
+                    <a href="#documents_post_request" data-toggle="tab">Request</a>
                   </li>
                 
 
                 
                   <li>
-                    <a href="#document_post_response" data-toggle="tab">Response</a>
+                    <a href="#documents_post_response" data-toggle="tab">Response</a>
                   </li>
                 
 
@@ -524,7 +524,7 @@
               <!-- Tab panes -->
               <div class="tab-content">
                 
-                  <div class="tab-pane active" id="document_post_request">
+                  <div class="tab-pane active" id="documents_post_request">
                     
 
                     
@@ -656,7 +656,7 @@
                 
 
                 
-                  <div class="tab-pane" id="document_post_response">
+                  <div class="tab-pane" id="documents_post_response">
                     
                       <h2>HTTP status code <a href="http://httpstatus.es/201" target="_blank">201</a></h2>
 
@@ -727,17 +727,17 @@
   <div class="panel panel-white resource-modal">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a class="collapsed" data-toggle="collapse" href="#panel_document__documentid_">
-          <span class="parent">/document</span>/{documentId}
+        <a class="collapsed" data-toggle="collapse" href="#panel_documents__documentid_">
+          <span class="parent">/documents</span>/{documentId}
         </a>
 
         <span class="methods">
           
-            <a href="#document__documentid__put"><!-- modal shown by hashchange event -->
+            <a href="#documents__documentid__put"><!-- modal shown by hashchange event -->
               <span class="badge badge_put">put</span>
             </a>
           
-            <a href="#document__documentid__delete"><!-- modal shown by hashchange event -->
+            <a href="#documents__documentid__delete"><!-- modal shown by hashchange event -->
               <span class="badge badge_delete">delete</span>
             </a>
           
@@ -745,7 +745,7 @@
       </h4>
     </div>
 
-    <div id="panel_document__documentid_" class="panel-collapse collapse">
+    <div id="panel_documents__documentid_" class="panel-collapse collapse">
       <div class="panel-body">
         
           
@@ -753,7 +753,7 @@
 
         <div class="list-group">
           
-            <div onclick="window.location.href = '#document__documentid__put'" class="list-group-item">
+            <div onclick="window.location.href = '#documents__documentid__put'" class="list-group-item">
               <span class="badge badge_put">put</span>
               <div class="method_description">
 <p>update an existing document. The documentId parameter is a String representing a UUID</p>
@@ -762,7 +762,7 @@
               <div class="clearfix"></div>
             </div>
           
-            <div onclick="window.location.href = '#document__documentid__delete'" class="list-group-item">
+            <div onclick="window.location.href = '#documents__documentid__delete'" class="list-group-item">
               <span class="badge badge_delete">delete</span>
               <div class="method_description">
 <p>delete an existing document</p>
@@ -776,14 +776,14 @@
     </div>
 
     
-      <div class="modal fade" tabindex="0" id="document__documentid__put">
+      <div class="modal fade" tabindex="0" id="documents__documentid__put">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
               <h4 class="modal-title" id="myModalLabel">
                 <span class="badge badge_put">put</span>
-                <span class="parent">/document</span>/{documentId}
+                <span class="parent">/documents</span>/{documentId}
               </h4>
             </div>
 
@@ -801,13 +801,13 @@
               <ul class="nav nav-tabs">
                 
                   <li class="active">
-                    <a href="#document__documentid__put_request" data-toggle="tab">Request</a>
+                    <a href="#documents__documentid__put_request" data-toggle="tab">Request</a>
                   </li>
                 
 
                 
                   <li>
-                    <a href="#document__documentid__put_response" data-toggle="tab">Response</a>
+                    <a href="#documents__documentid__put_response" data-toggle="tab">Response</a>
                   </li>
                 
 
@@ -817,7 +817,7 @@
               <!-- Tab panes -->
               <div class="tab-content">
                 
-                  <div class="tab-pane active" id="document__documentid__put_request">
+                  <div class="tab-pane active" id="documents__documentid__put_request">
                     
                       <h3>URI Parameters</h3>
                       <ul>
@@ -864,7 +864,7 @@
                 
 
                 
-                  <div class="tab-pane" id="document__documentid__put_response">
+                  <div class="tab-pane" id="documents__documentid__put_response">
                     
                       <h2>HTTP status code <a href="http://httpstatus.es/201" target="_blank">201</a></h2>
 
@@ -970,14 +970,14 @@
         </div>
       </div>
     
-      <div class="modal fade" tabindex="0" id="document__documentid__delete">
+      <div class="modal fade" tabindex="0" id="documents__documentid__delete">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
               <h4 class="modal-title" id="myModalLabel">
                 <span class="badge badge_delete">delete</span>
-                <span class="parent">/document</span>/{documentId}
+                <span class="parent">/documents</span>/{documentId}
               </h4>
             </div>
 
@@ -995,13 +995,13 @@
               <ul class="nav nav-tabs">
                 
                   <li class="active">
-                    <a href="#document__documentid__delete_request" data-toggle="tab">Request</a>
+                    <a href="#documents__documentid__delete_request" data-toggle="tab">Request</a>
                   </li>
                 
 
                 
                   <li>
-                    <a href="#document__documentid__delete_response" data-toggle="tab">Response</a>
+                    <a href="#documents__documentid__delete_response" data-toggle="tab">Response</a>
                   </li>
                 
 
@@ -1011,7 +1011,7 @@
               <!-- Tab panes -->
               <div class="tab-content">
                 
-                  <div class="tab-pane active" id="document__documentid__delete_request">
+                  <div class="tab-pane active" id="documents__documentid__delete_request">
                     
                       <h3>URI Parameters</h3>
                       <ul>
@@ -1058,7 +1058,7 @@
                 
 
                 
-                  <div class="tab-pane" id="document__documentid__delete_response">
+                  <div class="tab-pane" id="documents__documentid__delete_response">
                     
                       <h2>HTTP status code <a href="http://httpstatus.es/201" target="_blank">201</a></h2>
 
@@ -1113,7 +1113,7 @@
           
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h3 id="document_category" class="panel-title">/document_category</h3>
+                <h3 id="document_categories" class="panel-title">/document_categories</h3>
               </div>
 
               <div class="panel-body">
@@ -1124,13 +1124,13 @@
   <div class="panel panel-white resource-modal">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a class="collapsed" data-toggle="collapse" href="#panel_document_category">
-          <span class="parent"></span>/document_category
+        <a class="collapsed" data-toggle="collapse" href="#panel_document_categories">
+          <span class="parent"></span>/document_categories
         </a>
 
         <span class="methods">
           
-            <a href="#document_category_get"><!-- modal shown by hashchange event -->
+            <a href="#document_categories_get"><!-- modal shown by hashchange event -->
               <span class="badge badge_get">get</span>
             </a>
           
@@ -1138,13 +1138,13 @@
       </h4>
     </div>
 
-    <div id="panel_document_category" class="panel-collapse collapse">
+    <div id="panel_document_categories" class="panel-collapse collapse">
       <div class="panel-body">
         
 
         <div class="list-group">
           
-            <div onclick="window.location.href = '#document_category_get'" class="list-group-item">
+            <div onclick="window.location.href = '#document_categories_get'" class="list-group-item">
               <span class="badge badge_get">get</span>
               <div class="method_description">
 <p>list all document category matching provided query criteria or return all document categories</p>
@@ -1158,14 +1158,14 @@
     </div>
 
     
-      <div class="modal fade" tabindex="0" id="document_category_get">
+      <div class="modal fade" tabindex="0" id="document_categories_get">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
               <h4 class="modal-title" id="myModalLabel">
                 <span class="badge badge_get">get</span>
-                <span class="parent"></span>/document_category
+                <span class="parent"></span>/document_categories
               </h4>
             </div>
 
@@ -1183,13 +1183,13 @@
               <ul class="nav nav-tabs">
                 
                   <li class="active">
-                    <a href="#document_category_get_request" data-toggle="tab">Request</a>
+                    <a href="#document_categories_get_request" data-toggle="tab">Request</a>
                   </li>
                 
 
                 
                   <li>
-                    <a href="#document_category_get_response" data-toggle="tab">Response</a>
+                    <a href="#document_categories_get_response" data-toggle="tab">Response</a>
                   </li>
                 
 
@@ -1199,7 +1199,7 @@
               <!-- Tab panes -->
               <div class="tab-content">
                 
-                  <div class="tab-pane active" id="document_category_get_request">
+                  <div class="tab-pane active" id="document_categories_get_request">
                     
 
                     
@@ -1272,7 +1272,7 @@
                 
 
                 
-                  <div class="tab-pane" id="document_category_get_response">
+                  <div class="tab-pane" id="document_categories_get_response">
                     
                       <h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2>
 
@@ -1348,9 +1348,9 @@
           <div id="sidebar" class="hidden-print affix" role="complementary">
             <ul class="nav nav-pills nav-stacked">
               
-                <li><a href="#document">/document</a></li>
+                <li><a href="#documents">/documents</a></li>
               
-                <li><a href="#document_category">/document_category</a></li>
+                <li><a href="#document_categories">/document_categories</a></li>
               
             </ul>
           </div>
